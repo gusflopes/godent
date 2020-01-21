@@ -1,0 +1,17 @@
+{
+  "name": "godent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gusflopes/godent.git",
+  "author": "gusflopes <gusflopes86@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "backend",
+      "frontend/*",
+      "mobile",
+      "shared/*"
+    ]
+  }
+}
